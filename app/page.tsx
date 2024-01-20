@@ -11,11 +11,11 @@ export default function Home() {
     return (
         <main className="min-h-screen bg-light-1 pt-10">
             <Header />
-            <section className="flex flex-col md:flex-row-reverse md:mt-[115px] pb-10">
+            <section className="flex flex-col md:flex-row-reverse md:mt-[115px] pb-10 px-5 md:px-10 lg:px-[160px]">
                 <Image
                     src={Image1}
                     alt="Image title"
-                    className="w-full max-w-md"
+                    className="w-full max-w-sm lg:max-w-md mx-auto"
                 />
                 <div className="-mt-5 flex-1">
                     <h3 className="text-yellow font-bold md:text-3xl md:font-bold">
@@ -27,7 +27,7 @@ export default function Home() {
                     <h1 className="text-[32px] font-bold md:text-[40px] md:font-extrabold">
                         Consequat Tristique.
                     </h1>
-                    <div className="flex flex-col md:flex-row md:flex-wrap max-w-[655px] gap-[14px] text-dark text-[16.85px] font-semibold mt-[30px]">
+                    <div className="flex flex-wrap md:flex-row max-w-[655px] gap-[14px] text-dark text-[16.85px] font-semibold mt-[30px]">
                         {items.map((item) => (
                             <div className="flex items-center gap-[5.9px] bg-white py-[11.8px] px-[16.85px] w-fit rounded-[4212.59px]">
                                 <TickIcon />
