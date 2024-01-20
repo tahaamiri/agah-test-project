@@ -4,10 +4,22 @@
 
 
 body {
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    font-family: 'Segoe UI' !important;
+}
+
+.parent {
+    -webkit-transform: skewY(-15deg);
+    -moz-transform: skewY(-15deg);
+    -ms-transform: skewY(-15deg);
+    -o-transform: skewY(-15deg);
+    transform: skewY(-15deg);
+    text-align: center;
+}
+
+.child {
+    -webkit-transform: skewY(15deg);
+    -moz-transform: skewY(15deg);
+    -ms-transform: skewY(15deg);
+    -o-transform: skewY(15deg);
+    transform: skewY(15deg);
 }
