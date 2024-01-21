@@ -50,19 +50,19 @@ export default function Home() {
                     <Image
                         src={Section1Img}
                         alt="Section one image"
-                        className="w-full max-w-sm lg:max-w-md mx-auto"
+                        className="w-full max-w-sm xl:max-w-2xl mx-auto"
                     />
                     <div className="-mt-5 flex-1">
-                        <h3 className="text-yellow font-bold md:text-3xl md:font-bold">
+                        <h1 className="text-yellow font-bold md:text-3xl md:font-bold leading-10">
                             risus praesent vulputate.
-                        </h3>
-                        <h1 className="text-4xl font-bold md:text-[40px] md:font-extrabold mt-2">
+                        </h1>
+                        <h1 className="text-4xl font-bold md:text-[40px] xl:text-[70px] md:font-extrabold mt-2 min-w-fit leading-[50px]">
                             Cursus Integer
                         </h1>
-                        <h1 className="text-[32px] font-bold md:text-[40px] md:font-extrabold">
+                        <h1 className="text-[32px] font-bold md:text-[40px] xl:text-[70px] md:font-extrabold">
                             Consequat Tristique.
                         </h1>
-                        <div className="flex flex-wrap md:flex-row max-w-[655px] gap-[14px] text-dark text-[16.85px] font-semibold mt-[30px]">
+                        <div className="flex flex-wrap md:flex-row max-w-[655px] gap-[14px] text-dark text-[16.85px] xl:text-xl font-semibold mt-[30px]">
                             {items.map((item, index) => (
                                 <div
                                     key={index}
@@ -73,7 +73,7 @@ export default function Home() {
                                 </div>
                             ))}
                         </div>
-                        <button className="group flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-[18.46px] font-bold bg-yellow rounded-[3846.15px] mt-10 hover:border-2 hover:border-dark hover:shadow-[9px_9px_0px_0px_#262626]"
+                        <button className="group flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-[18.46px] xl:text-2xl font-bold bg-yellow rounded-[3846.15px] mt-10 hover:border-2 hover:border-dark hover:shadow-[9px_9px_0px_0px_#262626]"
                         >
                             Lorem Ipsum
                             <ArrowIcon className="fill-dark group-hover:rotate-90 transition" />
@@ -85,10 +85,10 @@ export default function Home() {
                         <Image
                             src={Section2Img}
                             alt="Section two image"
-                            className="w-full max-w-sm lg:max-w-md mx-auto"
+                            className="w-full max-w-sm xl:max-w-2xl mx-auto"
                         />
-                        <div>
-                            <h1 className="text-4xl font-bold text-left">
+                        <div className="xl:mt-40">
+                            <h1 className="text-4xl xl:text-[50px] font-bold text-left leading-[50px]">
                                 Phasellus a vitae
                                 iaculis magna
                                 eleifend pulvinar
@@ -100,7 +100,7 @@ export default function Home() {
                             <p className="text-xl font-normal text-left mt-3">
                                 Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis vulputate et vulputate suspendisse natoque id tellus consectetur pulvinar et.
                             </p>
-                            <button className="group flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-white text-[18.46px] font-bold bg-dark rounded-[3846.15px] mt-10 hover:border-2 hover:border-white hover:shadow-[9px_9px_0px_0px_#FFF]">
+                            <button className="group flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-white text-[18.46px] xl:text-2xl font-bold bg-dark rounded-[3846.15px] mt-10 hover:border-2 hover:border-white hover:shadow-[9px_9px_0px_0px_#FFF]">
                                 Lorem Ipsum
                                 <ArrowIcon className="fill-white group-hover:rotate-90 transition" />
                             </button>
@@ -116,7 +116,7 @@ export default function Home() {
                             <h1 className="text-4xl text-left text-white font-bold mt-5">
                                 Cursus Integer Conseq Aliquam Tristique.
                             </h1>
-                            <button className="group flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-dark text-[18.46px] font-bold bg-white rounded-[3846.15px] mt-10 hover:border-2 hover:border-yellow hover:shadow-[9px_9px_0px_0px_#F9B800]">
+                            <button className="group flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-dark text-[18.46px] xl:text-2xl font-bold bg-white rounded-[3846.15px] mt-10 hover:border-2 hover:border-yellow hover:shadow-[9px_9px_0px_0px_#F9B800]">
                                 Lorem Ipsum
                                 <ArrowIcon className="fill-dark group-hover:rotate-90 transition" />
                             </button>
@@ -148,10 +148,15 @@ export default function Home() {
                         <SectinoThreeCards />
                     </div>
                 </section>
-                <section className="mt-[500px] px-5 text-justify p-10">
-                    <span className="text-xl font-bold">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis est numquam dolorum harum tenetur a dolores aspernatur provident, laudantium odio temporibus. Sed quidem velit cumque, vitae esse similique deleniti laboriosam?
+                <section className="mt-[500px] py-10 text-justify px-5 md:px-10 lg:px-[160px] flex items-center justify-between">
+                    <span className="text-4xl xl:text-[50px] font-bold max-w-3xl leading-[60px]">
+                        Vulputate et pulvinar ethre Suspendisse tellus consecteur
                     </span>
+                    <button className="group flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-[18.46px] xl:text-2xl font-bold bg-yellow rounded-[3846.15px] mt-10 hover:border-2 hover:border-dark hover:shadow-[9px_9px_0px_0px_#262626]"
+                    >
+                        Lorem Ipsum
+                        <ArrowIcon className="fill-dark group-hover:rotate-90 transition" />
+                    </button>
                 </section>
             </main>
         </>
