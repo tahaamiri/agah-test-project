@@ -46,7 +46,7 @@ export default function Home() {
         <>
             <main className="min-h-screen bg-light-1 pt-10">
                 <Header />
-                <section className="flex flex-col md:flex-row-reverse md:mt-[115px] pb-10 px-5 md:px-10 lg:px-[160px]">
+                <section className="flex flex-col md:flex-row-reverse md:mt-[115px] pb-10 lg:pb-56 px-5 md:px-10 lg:px-[160px]">
                     <Image
                         src={Section1Img}
                         alt="Section one image"
@@ -73,13 +73,14 @@ export default function Home() {
                                 </div>
                             ))}
                         </div>
-                        <button className="flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-[18.46px] font-bold bg-yellow rounded-[3846.15px] mt-10">
+                        <button className="group flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-[18.46px] font-bold bg-yellow rounded-[3846.15px] mt-10 hover:border-2 hover:border-dark hover:shadow-[9px_9px_0px_0px_#262626]"
+                        >
                             Lorem Ipsum
-                            <ArrowIcon className="fill-dark" />
+                            <ArrowIcon className="fill-dark group-hover:rotate-90 transition" />
                         </button>
                     </div>
                 </section>
-                <section className="parent bg-yellow py-24 mt-16 w-full" >
+                <section className="parent bg-yellow py-24 lg:py-56 mt-16 w-full" >
                     <div className="child flex flex-col md:flex-row-reverse md:mt-[115px] pb-10 px-5 md:px-10 lg:px-[160px]">
                         <Image
                             src={Section2Img}
@@ -99,14 +100,14 @@ export default function Home() {
                             <p className="text-xl font-normal text-left mt-3">
                                 Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis vulputate et vulputate suspendisse natoque id tellus consectetur pulvinar et.
                             </p>
-                            <button className="flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-white text-[18.46px] font-bold bg-dark rounded-[3846.15px] mt-10">
+                            <button className="group flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-white text-[18.46px] font-bold bg-dark rounded-[3846.15px] mt-10 hover:border-2 hover:border-white hover:shadow-[9px_9px_0px_0px_#FFF]">
                                 Lorem Ipsum
-                                <ArrowIcon className="fill-white" />
+                                <ArrowIcon className="fill-white group-hover:rotate-90 transition" />
                             </button>
                         </div>
                     </div>
                 </section >
-                <section className="parent bg-dark py-24 w-full">
+                <section className="parent bg-dark py-24 lg:py-56 w-full">
                     <div className="child flex flex-col lg:flex-row md:gap-[153px] px-5 md:px-10 lg:px-[160px]">
                         <div className="pt-3 md:pt-10 lg:pt-36">
                             <p className="text-xl font-normal text-yellow text-left">
@@ -115,9 +116,9 @@ export default function Home() {
                             <h1 className="text-4xl text-left text-white font-bold mt-5">
                                 Cursus Integer Conseq Aliquam Tristique.
                             </h1>
-                            <button className="flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-dark text-[18.46px] font-bold bg-white rounded-[3846.15px] mt-10">
+                            <button className="group flex items-center justify-between w-full max-w-[350px] outline-none py-4 px-[38px] text-dark text-[18.46px] font-bold bg-white rounded-[3846.15px] mt-10 hover:border-2 hover:border-yellow hover:shadow-[9px_9px_0px_0px_#F9B800]">
                                 Lorem Ipsum
-                                <ArrowIcon className="fill-dark" />
+                                <ArrowIcon className="fill-dark group-hover:rotate-90 transition" />
                             </button>
                             {!loading && (
                                 <form
@@ -147,7 +148,7 @@ export default function Home() {
                         <SectinoThreeCards />
                     </div>
                 </section>
-                <section className="mt-80 px-5 text-justify">
+                <section className="mt-[500px] px-5 text-justify p-10">
                     <span className="text-xl font-bold">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis est numquam dolorum harum tenetur a dolores aspernatur provident, laudantium odio temporibus. Sed quidem velit cumque, vitae esse similique deleniti laboriosam?
                     </span>

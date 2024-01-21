@@ -37,7 +37,7 @@ const items = [
 ]
 const SectinoThreeCards = () => {
     return (
-        <div className="mt-14 flex gap-10 xl:grid xl:grid-cols-2 max-w-[760px] w-full flex-wrap pb-52 xl:[&>*:nth-child(2)]:mt-[123px] xl:[&>*:nth-child(3)]:-mt-[123px]">
+        <div className=" mt-10 lg:mt-14 flex  gap-10 xl:grid xl:grid-cols-2 max-w-[760px] w-full flex-wrap pb-52 xl:[&>*:nth-child(2)]:mt-[123px] xl:[&>*:nth-child(3)]:-mt-[123px] [&>*:nth-child(2)]:bg-yellow [&>*:nth-child(4)]:bg-yellow xl:[&>*:nth-child(2)]:bg-yellow xl:[&>*:nth-child(3)]:bg-yellow xl:[&>*:nth-child(4)]:bg-white">
             {items.map((item) => (
                 <div
                     key={item.index}
